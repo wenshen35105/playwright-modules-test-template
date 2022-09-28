@@ -1,0 +1,9 @@
+{
+  "name": "@lib/types",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/index",
+  "scripts": {
+    "validate": "yarn root:validate"
+  }
+}

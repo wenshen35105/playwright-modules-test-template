@@ -1,0 +1,30 @@
+{
+  "folders": [
+    { "name": "root", "path": "." },
+    { "name": "@lib/core", "path": "./modules/lib/core" },
+    { "name": "@lib/misc", "path": "./modules/lib/misc" },
+    { "name": "@lib/types", "path": "./modules/lib/types" },
+    { "name": "@test/module-a", "path": "./modules/test/module-a" }
+  ],
+  "settings": {
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.codeActionsOnSave": { "source.fixAll": true },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/*.code-search": true,
+      "dist": true,
+      "**/.yarn": true
+    },
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "editorconfig.editorconfig",
+      "orta.vscode-jest"
+    ]
+  }
+}
